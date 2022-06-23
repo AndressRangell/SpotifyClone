@@ -1,0 +1,5 @@
+package andres.rangel.spotifyclone.utils
+
+object Constants {
+    const val SONG_COLLECTION = "songs"
+}
