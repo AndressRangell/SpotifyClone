@@ -6,4 +6,6 @@
     <string name="playlist_title">Playlist Title</string>
     <string name="_100_songs">100 Songs</string>
     <string name="title">Title</string>
+    <string name="notification_channel_name">Music Channel</string>
+    <string name="notification_channel_description">Shows the currently playing music</string>
 </resources>
