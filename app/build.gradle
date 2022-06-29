@@ -96,4 +96,7 @@ dependencies {
     api "com.google.android.exoplayer:exoplayer-ui:2.18.0"
     api "com.google.android.exoplayer:extension-mediasession:2.18.0"
 
+    //error metadata hilt
+    kapt("org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.3.0")
+
 }
