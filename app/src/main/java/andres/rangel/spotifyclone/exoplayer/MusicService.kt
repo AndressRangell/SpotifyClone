@@ -4,6 +4,7 @@ import andres.rangel.spotifyclone.exoplayer.callbacks.MusicPlaybackPreparer
 import andres.rangel.spotifyclone.exoplayer.callbacks.MusicPlayerEventListener
 import andres.rangel.spotifyclone.exoplayer.callbacks.MusicPlayerNotificationListener
 import andres.rangel.spotifyclone.utils.Constants.MEDIA_ROOT_ID
+import andres.rangel.spotifyclone.utils.Constants.NETWORK_ERROR
 import android.app.PendingIntent
 import android.content.Intent
 import android.os.Bundle
@@ -158,6 +159,7 @@ class MusicService : MediaBrowserServiceCompat() {
                             isPlayerInitialized = true
                         }
                     } else {
+                        mediaSession.sendSessionEvent(NETWORK_ERROR, null)
                         result.sendResult(null)
                     }
                 }
