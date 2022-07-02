@@ -1,5 +1,6 @@
-package andres.rangel.spotifyclone
+package andres.rangel.spotifyclone.ui.activities
 
+import andres.rangel.spotifyclone.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bumptech.glide.RequestManager
